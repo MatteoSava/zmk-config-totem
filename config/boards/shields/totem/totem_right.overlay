@@ -19,3 +19,10 @@
         , <&xiao_d 4 GPIO_ACTIVE_HIGH>
         ;
 };
+
+/ {
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+        label = "BATTERY";
+    };
+};
