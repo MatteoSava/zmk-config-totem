@@ -25,9 +25,9 @@
 
 &mt {
     quick-tap-ms = <100>;
-    global-quick-tap;
     flavor = "tap-preferred";
     tapping-term-ms = <170>;
+    require-prior-idle-ms = <100>;
 };
 
 / {
@@ -111,8 +111,8 @@
 
             bindings = <
            &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET   &kp AMPS      &kp ASTRK        &kp LPAR    &kp RPAR
-           &trans    &trans  &trans    &trans    &trans       &kp C_PREV  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_NEXT  &trans
-&kp GRAVE  &trans    &trans  &trans    &trans    &trans       &trans      &trans        &trans           &trans      &kp MINUS  &kp EQUAL
+           &trans    &trans  &trans    &trans    &trans       &kp C_PREV  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_NEXT  &kp MINUS
+&kp GRAVE  &trans    &trans  &trans    &trans    &trans       &trans      &trans        &trans           &trans      &trans     &kp EQUAL
                              &trans    &trans    &trans       &kp C_STOP  &kp C_PP      &kp C_MUTE
             >;
         };
