@@ -156,7 +156,7 @@
 
             bindings = <
            &kp EXCL   &kp AT     &kp LPAR  &kp RPAR   &kp ASTRK    &kp MINUS  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-           &kp N0     &kp LCTRL  &kp LBKT  &kp RBKT   &kp DLLR     &kp PLUS   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
+           &kp N0     &kp CARET  &kp LBKT  &kp RBKT   &kp DLLR     &kp PLUS   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
 &kp GRAVE  &kp TILDE  &kp AMPS   &kp LBRC  &kp RBRC   &kp PRCNT    &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
                                  &trans    &kp EQUAL  &trans       &trans     &trans     &trans
             >;
